@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* ÜST BAR */
+.topbar {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drag {
+  -webkit-app-region: drag;
+  flex: 1;
+  height: 100%;
+}
+
+.window-buttons {
+  display: flex;
+}
+
+.window-buttons button {
+  width: 55px;
+  height: 40px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.window-buttons button:hover {
+  background: #eee;
+}
+
+#close:hover {
+  background: #e74c3c;
+  color: white;
+}
+
+/* LOGIN */
+.container {
+  height: calc(100vh - 40px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 190px;          /* 🔼 büyütüldü */
+  margin-bottom: 70px;
+}
+
+.input-row {
+  width: 340px;          /* 🔼 */
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #cfcfcf;
+  padding-bottom: 10px;
+  margin-bottom: 18px;
+}
+
+.user-icon svg {
+  width: 22px;           /* 🔼 */
+  height: 22px;
+}
+
+.input-row input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 18px;       /* 🔼 yazı büyüdü */
+  padding-left: 8px;
+}
+
+.remember {
+  width: 340px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;       /* 🔼 */
+  color: #555;
+  margin-bottom: 50px;
+}
+
+.remember input {
+  transform: scale(1.2); /* checkbox büyüt */
+}
+
+button#loginBtn {
+  width: 260px;          /* 🔼 */
+  height: 62px;          /* 🔼 */
+  border-radius: 999px;
+  border: none;
+  background: #ffa12b;
+  color: white;
+  font-size: 20px;       /* 🔼 */
+  cursor: pointer;
+}
+
+button#loginBtn:hover {
+  background: #ff8c00;
+}

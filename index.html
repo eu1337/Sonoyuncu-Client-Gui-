@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Lena Network</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ÜST BAR -->
+  <div class="topbar">
+    <div class="drag"></div>
+    <div class="window-buttons">
+      <button id="minimize">—</button>
+      <button id="close">✕</button>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <img src="assets/logo.png" class="logo">
+
+    <div class="input-row">
+      <span class="user-icon">
+        <svg width="18" height="18" viewBox="0 0 24 24">
+          <path fill="#888"
+            d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"/>
+        </svg>
+      </span>
+
+    <input type="text" placeholder="Kullanıcı Adı" id="username"> 
+    </div>
+
+    <div class="remember">
+      <input type="checkbox" id="remember">
+      <label for="remember">Beni Hatırla</label>
+    </div>
+
+    <button id="loginBtn">Giriş Yap</button>
+
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
