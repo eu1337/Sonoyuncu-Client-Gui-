@@ -1,4 +1,4 @@
-# Sonoyuncu-Client-Gui-
+# sonoyuncu-client-gui
 Merhaba Bugün Oturup 1 Saat İçerisinde Sonoyuncunun Giriş Sistemini Yaptım 
 Bu Projeyi Sizinle Paylaşmak İstedim
 
